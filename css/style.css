@@ -1,0 +1,568 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(138, 7, 33);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header{
+   
+    position: relative;
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    width: 140%;
+    height: 90px;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 10px 10px 40px 4px rgb(48, 44, 44);
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    margin-left: 50px;
+}
+.btn1{
+    margin-left: 300px;
+    margin-top: -120px;
+    font-size: 27px;
+    background-color: #fff;
+   
+    border: 0px solid #fff ;
+}
+.btn1:hover{
+  border: 2px solid rgb(58, 42, 4);
+  border-radius: 20px 0px 20px;
+  cursor: pointer;
+}
+
+
+ .table1{
+    
+    width: 360px;
+    height: 50;
+    background-color: #fff;
+    border: 1px solid rgb(83, 79, 79);
+    border-radius: 50px 0px 50px;
+    color: brown;
+    margin-left: 170px;
+}
+.table1{
+    visibility: hidden;
+ }
+ .btntable:hover   .table1{
+     visibility: visible;
+     
+ }
+ .btntable{
+     margin-top: -30px;
+ }
+ .btn2{
+    border: 2px solid rgb(58, 42, 4);
+    border-radius: 20px 0px 20px;
+    cursor: pointer;
+   margin-left: 500px;
+    margin-top: -140px;
+    position: absolute;
+    font-size: 22px;
+    background-color: #fff;
+    border: 0px solid #fff ;
+ }
+ .btn2:hover{
+    border: 2px solid rgb(58, 42, 4);
+    border-radius: 20px 0px 20px;
+    cursor: pointer;
+ }
+ 
+ .btn4{
+    border: 2px solid rgb(58, 42, 4);
+    border-radius: 20px 0px 20px;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: -140px;
+    position: absolute;
+    font-size: 22px;
+    background-color: #fff;
+    border: 0px solid #fff ;
+}
+ .btn4:hover{
+    border: 2px solid rgb(58, 42, 4);
+    border-radius: 20px 0px 20px;
+    cursor: pointer; 
+ }
+ .btn3{
+    border: 2px solid rgb(58, 42, 4);
+    border-radius: 20px 0px 20px;
+    cursor: pointer;
+    border: 0px solid #fff ;
+    margin-top: -140px;
+    position: absolute;
+    font-size: 22px;
+    background-color: #fff;
+ }
+ .btn3:hover{
+    border: 2px solid rgb(58, 42, 4);
+    border-radius: 20px 0px 20px;
+    cursor: pointer; 
+ }
+ .btns{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 420px;
+     margin-top: -50px;
+ }
+ .search1{
+     margin-left: 1100px;
+     margin-top:-80px ;
+     position: absolute;
+     font-size: 25px;
+ }
+ .user{
+     margin-left: 1160px;
+     margin-top: -80px;
+     position: absolute;
+     font-size:25px ;
+ }
+ .shopping{
+     margin-left:1220px ;
+     margin-top: -80px;
+     position: absolute;
+     font-size: 25px;
+ }
+ .best{
+     position: relative;
+     margin: auto;
+     width: 80%;
+     height: 600px;
+     background-image:url(../images/حشبي\ فاتح.jfif) ;
+     background-size: cover;
+     margin-top: 200px;
+ }
+ .title1{
+     position: absolute;
+     margin-top: 100px;
+     margin-left: 40%;
+     position: absolute;
+     color: crimson;
+     font-size: 33px;
+     text-shadow: 4px 4px 10px black;
+ }
+ .title1:hover{
+     color: rgb(236, 20, 136);
+ }
+ .img1{
+     position: absolute;
+     margin-top: 170px;
+     animation-name: photo;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+ }
+@keyframes photo{
+    0%{left: 0px; }
+    100%{ top:15px;}
+}
+.img2{
+    position: absolute;
+    margin-top: 190px;
+    animation-name: photo;
+    margin-left: 270px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+     }
+     .img3{
+        position: absolute;
+        margin-top: 290px;
+        animation-name: photo;
+        margin-left: 670px;
+        animation-duration: 1s;
+        animation-iteration-count: infinite; 
+     }
+     .img4{
+        position: absolute;
+        margin-top: 290px;
+        animation-name: photo;
+        margin-left: 870px;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;  
+     }
+     .btn5{
+         position: absolute;
+         margin-top: 500px;
+         margin-left: 500px;
+         font-size: 22px;
+         cursor: pointer;
+         border-radius: 15px 0px 15px;
+     }
+     section{
+         position: relative;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+     }
+     section  h2{
+         position: absolute;
+         color: #fff;
+         margin-top: 150px;
+         margin-left: 25%;
+     }
+     section p{
+         height: 4px;
+         width: 80px;
+         background-color: rgb(165, 125, 22);
+         position: absolute;
+         margin-top:180px ;
+         margin-left: 150px;
+       
+     }
+     section:hover p{
+         transform: scale(2,2);
+         transition: 1s;
+     }
+     .sec2{
+         margin-top: 300px;
+         position: relative;
+     }
+   
+     .pic1{
+         width: 300px;
+         height: 450px;
+         background-color: #fff;
+         
+     }
+     .pic2{
+        width: 300px;
+        height: 450px;
+        background-color: #fff;
+    
+    }
+    .pic3{
+        width: 300px;
+        height: 450px;
+        background-color: #fff;
+        
+    }
+    .pic4{
+        width: 300px;
+        height: 450px;
+        background-color: #fff;
+       
+        
+    
+    }
+    .sec2 h3{
+        position: absolute;
+        padding-left: 80px;
+        color: rgb(106, 109, 109);
+
+    }
+    .sec2 span{
+      display: block;
+      margin-top: 30px;
+      padding-left: 80px;
+      font-size: 22px;
+      color: brown;
+
+    
+        
+    }
+    .sec2  .arrow{
+        margin-left: 250px;
+        font-size: 25px;
+        color: brown;
+    }
+    .sec2 .arrow{
+        visibility: hidden;
+    }
+    .pic1:hover  .arrow{
+        visibility: visible;
+    }
+    .pic2:hover  .arrow{
+        visibility: visible;
+    }
+    .pic3:hover  .arrow{
+        visibility: visible;
+    }
+    .pic4:hover  .arrow{
+        visibility: visible;
+    }
+    .sec3{
+        margin: auto;
+        margin-top: 120px;
+       
+    }
+    .sec3  .pic5,.pic6,.pic7{
+        width: 300px;
+        height: 500px;
+        background-color: #fff;
+        animation-name: change;
+        animation-duration: 1s;
+        box-shadow: 10px 10px 50px 4px  rgb(36, 33, 33);
+        
+    }
+    .sec3 .pic5{
+     background-image: url(../images/wood2.jpg);
+     background-size: cover;
+     width: 500px;
+     
+    }
+    .sec3 .pic5 .quote{
+        font-size: 40px;
+        color: rgb(78, 57, 4);
+        margin-left: 20px;
+    }
+    .sec3 .pic5 h4{
+        margin-left: 40%;
+        margin-top: -30px;
+        font-size: 27px;
+        color: rgb(122, 9, 9);
+    }
+    .sec3 .pic5 .spn2{
+        display: block;
+        color: rgb(58, 42, 4);
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .sec3 .pic5 .spn3{
+        display: block;
+        color: rgb(58, 42, 4);
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .sec3 .pic5  .quote2{
+        margin-left: 90%;
+        font-size: 40px;
+        color: rgb(82, 60, 4);
+        margin-bottom: 20px;
+    }
+    .sec3 .pic6{
+     background-image: url(../images/log\ pink\ cake.jfif);  
+     background-size: cover;
+
+    }
+    .pic6:hover{
+        transform: scale(1.1,1.1);
+    }
+    .sec3 .pic7{
+  background-image: url(../images/long\ cake.jfif);
+  background-size: cover;
+    }
+    .pic7:hover{
+        transform: scale(1.1,1.1);
+    }
+    .sec3 h5{
+        margin-left: 20%;
+        margin-top: 30px;
+        font-size: 33px;
+        color: rgb(37, 14, 14);
+    }
+    .sec4{
+        position: relative;
+        margin-top: 120px;
+        width: 100%;
+        height: 400px;
+        background-color: #fff;
+    }
+    .sec4 .ship{
+       position: absolute;
+        margin-top: 30px;
+        font-size: 40px;
+        color: gray;
+        margin-left: 4px;
+        
+
+    }
+    .divA:hover .ship{
+        
+        color: rgb(92, 67, 3);
+           
+    
+    }
+   
+  
+    .sec5{
+        margin: auto;
+        
+        position: relative;
+    }
+    .sec5 .title3{
+position: absolute;
+margin-bottom: 80px;
+margin-right: 90px;
+    }
+    .sec6{
+        margin: auto;
+        position: relative;
+        margin-top: 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+     .sec6 h6{
+         color: #fff;
+         font-size: 29px;
+     }
+     .sec7{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         
+         margin: auto;
+         margin-top: 90px;
+         transform-style: preserve-3d;
+         position: relative;
+         transition: 2s;
+         position: relative;
+     }
+     
+         
+         
+    
+     .rotate{
+         
+         position: relative;
+         width: 300px;
+         height: 500px;
+         background-color: rgb(245, 206, 192);
+         box-shadow: 10px 10px 20px 8px  rgb(26, 25, 25);
+     }
+     .front,.back{
+         position: absolute;
+         margin-top: 90px;
+        
+     }
+     .front{
+         visibility: ;
+         z-index: 1;
+     }
+     .front:hover {
+      transform: rotateY(180deg);
+      
+      opacity: 0.2;
+      
+     }
+     .back{
+        visibility: hidden; 
+     }
+     .rotate:hover .back{
+         visibility: visible;
+     }
+     .back:hover{
+         backface-visibility: visible;
+     }
+     .front:hover{
+         visibility: visible;
+     }
+      .secD{
+         color: #fff;
+         margin-top: 120px;
+         position: relative;
+         display: flex;
+        flex-direction: row;
+        justify-content:space-between; 
+     } 
+     
+     .rotate li{
+         display: inline;
+         font-size: 30px;
+         color: rgb(39, 20, 6);
+        
+     }
+     .rotate ul{
+      margin-top: -50px;
+      margin-left: 50px;
+       }
+  
+   .rotate .lif{
+       margin-left: 50px;
+   }
+   .rotate .star1{
+       margin-left: 50px;
+   }
+   .rotate .star1,.star2,.star3,.star4,.star5{
+       margin-top: 400px;
+   }
+   .rotate .star1,.star2,.star3,.star4{
+       color: rgb(133, 133, 7);
+   }
+   .rotate .spn3{
+       display: block;
+       margin-top: 20px;
+       margin-left: 20px;
+   }
+   .rotate h6{
+       font-size: 20px;
+       margin-left: 20px;
+   }
+  .rotate2{
+    margin-top: 580px;
+   position: relative;
+  
+    
+  }
+  .last{
+      margin: auto;
+      margin-top: 90px;
+  }
+  .secD{
+      margin: auto;
+      width: 80%;
+      height: 450px;
+      position: relative;
+      margin-top: 100px;
+  }
+  .delivery .imgA,.imgB{
+      position: absolute;
+      
+      
+  }
+  .imgA{
+      visibility: hidden;
+  }
+  .delivery:hover .imgA{
+      visibility: visible;
+  }
+  .delivery:hover .imgB{
+      visibility: hidden;
+  }
+  
+  .delivery{
+      margin-top: 50px;
+  }
+  .delivery .span11{
+      display: block;
+      margin-top: 10px;
+  }
+  .delivery .dele{
+      
+      margin-top: 95px;
+  }
+  .delivery .border{
+      width: 2px;
+      height: 250px;
+      background-color: rgb(224, 213, 213);
+      position: absolute;
+      margin-left: 220px;
+      margin-top: -110px;
+  }
+  
+     
+   
+    
+   
+    
+   
+   
+      
+        
+        
+    
+    
+   
+    
+  
